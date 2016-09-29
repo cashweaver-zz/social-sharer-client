@@ -1,0 +1,19 @@
+{
+  "name": "social-sharer",
+  "version": "0.0.0",
+  "description": "Social media sharing with Glassdoor-like access requirements.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cashweaver/social-sharer.git"
+  },
+  "author": "cashweaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cashweaver/social-sharer/issues"
+  },
+  "homepage": "https://github.com/cashweaver/social-sharer#readme"
+}
