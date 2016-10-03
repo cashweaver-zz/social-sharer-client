@@ -3,18 +3,20 @@
   "version": "0.0.0",
   "description": "Social media sharing with Glassdoor-like access requirements.",
   "author": "cashweaver",
-  "main": "app.js",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
   "devDependencies": {
-    "react-scripts": "^0.6.1"
+    "react-scripts": "^0.6.1",
+    "react-test-renderer": "^15.3.2"
   },
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-router": "^2.8.1"
+    "react-router": "^4.0.0-alpha.4"
   },
   "repository": {
     "type": "git",
