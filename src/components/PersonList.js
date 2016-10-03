@@ -14,7 +14,11 @@ const PersonList = ({persons, addPerson}) => (
 
 PersonList.propTypes = {
   persons: React.PropTypes.arrayOf(React.PropTypes.shape({
-    name: React.PropTypes.string
+    name: React.PropTypes.string,
+    facebook: React.PropTypes.string,
+    twitter: React.PropTypes.string,
+    github: React.PropTypes.string,
+    linkedIn: React.PropTypes.string
   })).isRequired,
   addPerson: React.PropTypes.func.isRequired
 }
